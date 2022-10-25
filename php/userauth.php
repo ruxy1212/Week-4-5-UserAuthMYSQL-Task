@@ -122,7 +122,7 @@ function getusers(){
                     "</td> <td style='width: 150px'>" . $data['gender'] . 
                     "</td> <td style='width: 150px'>" . $data['country'] . 
                     "</td>
-                    <td style='width: 150px'> 
+                    <td style='width: 150px; text-align: center;'> 
                         <form action='action.php' method='post'>
                             <input type='hidden' name='id' value='" . $data['id'] . "'>
                             <button type='submit', name='delete' style='background: blue; color: white; cursor: pointer;'> DELETE </button>

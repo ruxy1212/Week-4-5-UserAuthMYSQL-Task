@@ -9,8 +9,8 @@ switch(true){
             $fullnames = $_POST['fullnames'];
             $email = $_POST['email'];
             $password = $_POST['password'];
-            $country = $_POST['country'];
             $gender = $_POST['gender'];   
+            $country = $_POST['country'];
         registerUser($fullnames, $email, $password, $gender, $country);
         break;
 
